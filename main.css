@@ -8,8 +8,18 @@
     font-family: "Sorce Sans Pro", sans-serif;
 }
 
-.patrick{
+.patrickimage{
     width: 10%;
+}
+
+.pythonimage{
+    width: 1%;
+    position: absolute;
+    right: 43%;
+}
+
+.cp{
+    text-align: center;
 }
 
 .splash{
