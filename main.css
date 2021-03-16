@@ -30,6 +30,7 @@
     min-width: 17%;
     width: 17%;
     position: static;
+    border-radius: 20px;
 }
 
 .pokemonBotButton{
@@ -48,6 +49,10 @@
 .pokemonBotButton:active{
     box-shadow: 0 3px #666;
     transform: translateY(4px);
+}
+
+.pokemonBotRect{
+    border-radius: 15px;
 }
 
 .bottomLine{
