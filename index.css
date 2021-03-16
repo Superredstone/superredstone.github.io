@@ -1,0 +1,56 @@
+.mainTitle{
+    font-family: "Sorce Sans Pro", sans-serif;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    font-family: "Sorce Sans Pro", sans-serif;
+}
+
+.patrick{
+    width: 10%;
+}
+
+.splash{
+    left: 0%;
+    top: 0%;
+    background: black;
+    color: white;
+    font-family: "Sorce Sans Pro", sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    line-height: 90vh;
+    text-align: center;
+    z-index: 1;
+}
+
+.splash.display-none{
+    opacity: 0;
+    color: white;
+    font-family: "Sorce Sans Pro", sans-serif;
+    position: absolute;
+    top 0;
+    left 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    line-height: 90vh;
+    text-align: center;
+    z-index: -10;
+    transition: all 0.5s;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
