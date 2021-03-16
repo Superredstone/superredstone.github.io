@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.navBar{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+}
+
 .description{
     text-align: center;
     font-family: "Sorce Sans Pro", sans-serif;
@@ -19,6 +24,7 @@
 }
 
 .cp{
+    font-family: "Sorce Sans Pro", sans-serif;
     text-align: center;
 }
 

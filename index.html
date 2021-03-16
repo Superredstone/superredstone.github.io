@@ -9,6 +9,7 @@
         <title>r3ddy</title>
         <link rel="icon" href="images/patrick.png" type="image/icon type">
         <h1 class=mainTitle>r3ddy</h1>
+        <a class=navBar href="projects.html">My Projects</a>
         <hr class="solid">
     </head>
     <body>
@@ -24,7 +25,10 @@
              </p>
              <img class="patrickimage" src="images/patrick.png">
              <hr class="solid">
-             <p class="cp">©r3ddy all rights reserved</p>
+             <script class=cp>
+                let date =  new Date().getFullYear();
+                document.write("©" + date + " r3ddy")
+             </script>
         </section>
         
         <script src="main.js"></script>
