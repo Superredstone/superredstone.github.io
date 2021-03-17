@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf8">
         <link rel="stylesheet" href="main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -14,19 +15,45 @@
         <hr class="solid">
     </head>
     <body>
-        <div class="pokemonBotRect">
-            <img class="pokemonBotGif" src="images/pokemonbot.gif"><br>
-            <form action="https://github.com/Superredstone/Pokemon-Discord-Bot">
-                <button class="pokemonBotButton" href="https://github.com/Superredstone/Pokemon-Discord-Bot">Discord Pokémon Bot</button>
-            </form>
-        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/pokemonbot.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pokémon Discord Bot</h5>
+                  <p class="card-text">Discord bot made in Python. It retrieves Pokémon informations.</p>
+                  <a href="https://github.com/Superredstone/Pokemon-Discord-Bot" class="btn btn-primary">GitHub Page</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">  
+                <div class="card-body">
+                  <h5 class="card-title">WIP</h5>
+                  <p class="card-text">WIP.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">WIP</h5>
+                  <p class="card-text">WIP.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
 
         <section class="description">
-            <hr class="solid">
+            <hr class="bottomLine">
             <script class="cp">
                 let date =  new Date().getFullYear();
                 document.write("©" + date + " r3ddy")
             </script>
         </section>
+
     </body>
 </html>
